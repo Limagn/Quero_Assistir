@@ -1,0 +1,1 @@
+const key = '8adf587c'
