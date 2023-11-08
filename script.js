@@ -9,7 +9,7 @@ let movieList = JSON.parse(localStorage.getItem('movieList')) ?? [];
 // Função responsável pela busca
 async function searchButtonClickHandler() {
     try{
-        let url = `http://www.omdbapi.com/?apikey=${key}
+        let url = `https://www.omdbapi.com/?apikey=${key}
         &t=${movieNameParameterGenerator()}
         ${movieYearParameterGenerator()}`;
 
